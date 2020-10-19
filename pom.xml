@@ -11,6 +11,8 @@
     <modules>
         <module>nacos_provide</module>
         <module>nacos_consumer</module>
+        <module>nacos-feign</module>
+        <module>nacos-config</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>

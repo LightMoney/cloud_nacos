@@ -19,8 +19,12 @@ public class TestConsumerController {
         return new RestTemplate();
     }
 
+    /**
+     * 使用ribbon实现负载均衡的时候，服务名称不能用下划线，换成中划线
+     * @return
+     */
     @GetMapping("/consumer")
     public String test1() {
-        return restTemplate.getForObject("http://nacos_provide/hello",String.class);
+        return restTemplate.getForObject("http://nacos-provide/hello",String.class);
     }
 }
