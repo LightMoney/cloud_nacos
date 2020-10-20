@@ -20,7 +20,7 @@ public class TestConsumerController {
     }
 
     /**
-     * 使用ribbon实现负载均衡的时候，服务名称不能用下划线，换成中划线
+     * 使用ribbon实现负载均衡的时候，服务名称不能用下划线，换成中划线   要在相同spacename下的的服务才能相互远程调用
      * @return
      */
     @GetMapping("/consumer")

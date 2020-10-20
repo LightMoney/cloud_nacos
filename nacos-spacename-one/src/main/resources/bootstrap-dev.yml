@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: 309a1a24-556b-42f6-a24a-ba6434062b54
+        group: namespace-one
+#        服务注册到对应空间下
+      config:
+        server-addr: 127.0.0.1:8848
+        prefix: ${spring.application.name}
+        file-extension: yml
+        namespace: 309a1a24-556b-42f6-a24a-ba6434062b54
+        group: namespace-one

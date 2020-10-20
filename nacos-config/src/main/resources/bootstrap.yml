@@ -8,3 +8,9 @@ spring:
       config:
         server-addr: 127.0.0.1:8848
         file-extension: yml
+        prefix: ${spring.application.name}
+
+
+#        DataID: 适用于项目不多，服务量少的情况。
+#        Group：实现方式简单，但是容易与DataID方案发生冲突，仅适合于本地调试(当项目配置了active时，会根据dataId方式查找)     group: DEV_GROUP
+#        Namespace：实现方式简单，配置管理简单灵活，同时可以结合DataID共同使用，推荐这种方案   namespace: edbd013b-b178-44f7-8caa-e73071e49c4d

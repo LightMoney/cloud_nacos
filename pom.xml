@@ -13,6 +13,8 @@
         <module>nacos_consumer</module>
         <module>nacos-feign</module>
         <module>nacos-config</module>
+       <module>nacos-spacename-one</module>
+        <module>nacos-config-share</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
