@@ -26,6 +26,7 @@ spring:
         exclusions: /druid/*  #排除过滤
   application:
     name:  security-one
+
 #      mybatis:
 #        #开启驼峰命名法
 #        configuration:
