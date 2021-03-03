@@ -11,6 +11,12 @@
     <modules>
         <module>nacos_provide</module>
         <module>nacos_consumer</module>
+        <module>nacos-feign</module>
+        <module>nacos-config</module>
+       <module>nacos-spacename-one</module>
+        <module>nacos-config-share</module>
+        <module>nacos-feign-sentinel</module>
+        <module>security1</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>

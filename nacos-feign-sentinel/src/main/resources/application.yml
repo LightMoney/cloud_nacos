@@ -1,0 +1,16 @@
+server:
+  port: 8015
+spring:
+  application:
+    name: nacos-feign-sentinel
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    sentinel:
+      transport:
+        # 指向sentinel UI界面
+        dashboard: localhost:8080
+feign:
+  sentinel:
+    enable: true

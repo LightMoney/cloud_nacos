@@ -9,4 +9,7 @@ public class TestController {
     public  String testProvide(){
         return "hello";
     }
+
+    @GetMapping("/relevance")
+    public  String testRe(){ return  "relevance";}
 }
