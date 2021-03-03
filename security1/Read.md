@@ -1,0 +1,7 @@
+直接引入security的包后未配置会有有默认的一个登陆拦截
+默认
+username：user
+password 会在console中打印出来
+添加配置类继承WebSecurityConfigurerAdapter开启@EnableWebSecurity
+覆写对应的configure
+configure(AuthenticationManagerBuilder auth)   认证（采用哪种认证方式 jdbc memory。。）
